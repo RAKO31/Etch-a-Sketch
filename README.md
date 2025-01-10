@@ -1,4 +1,5 @@
-Etch-a-Sketch
+Etch-a-Sketch:
+
 An interactive Etch-a-Sketch web app built with HTML, CSS, and JavaScript.
 
 Demo
