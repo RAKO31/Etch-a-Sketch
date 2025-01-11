@@ -20,7 +20,16 @@ btn.addEventListener('click',()=>{
                 column.className = `column${i+1}${j+1}`;
                 column.style=" border:1px solid black;width:10px;height:10px;flex:1";
                 column.addEventListener('mouseenter',()=>{
-                    column.style.backgroundColor = 'blue';
+                    let num = Math.random()*100;
+                    if(num<33){
+                        column.style.backgroundColor = 'blue';
+                    }
+                    else if(num<66){
+                        column.style.backgroundColor = 'red';
+                    }
+                    else{
+                        column.style.backgroundColor = 'green';
+                    }
                 });
                 row.appendChild(column);
             }
